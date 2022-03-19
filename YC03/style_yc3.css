@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Timers;
+    src: url(font/vndi02.ttf);
+}
+.banner{
+    margin: 280px auto;
+    width: 80%;
+    border: 2px solid black;
+    display: flex;
+}
+.text{
+    width: 70%;
+}
+.time{
+    font-size: 70px;
+    font-family: Timers;
+    color: red;
+    width: 30%;
+    background-color: black;
+}
+p{
+    text-align: center;
+    font-size: 70px;
+    margin: auto;
+}
+.p-animation{
+    animation: font 2s linear;
+}
+@keyframes font{
+    from{
+        font-size: 50px;
+    }
+    to{
+        font-size: 70px;
+    }
+}
